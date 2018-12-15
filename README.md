@@ -20,7 +20,7 @@ Keywords:  CDISC, SDTM, Machine Learning, NLP, Text Mining, AI
 
 ## Future Work
 
-* More training data
+* More training data in collaboration with [PhUSE ML Project](https://www.phusewiki.org/wiki/index.php?title=Machine_Learning_/_Artificial_Intelligence)
 * Build models for other domains
 * Build model endpoints which can be called by aws API.
 
@@ -29,4 +29,5 @@ Keywords:  CDISC, SDTM, Machine Learning, NLP, Text Mining, AI
 
 
 Thanks,
+
 Sam Tomioka
