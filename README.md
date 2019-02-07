@@ -15,8 +15,8 @@ Keywords:  CDISC, SDTM, Machine Learning, NLP, Text Mining, AI
 ## Information
 
 * Original paper was submitted to CDISC for CDISC US Interchange 2018.
-* Proof of Concept NLP and ML based SDTM mapping work using R can be found [here](poc/sdtm_map_no_rule_based.md)
-* Proof of Concept word embedding for SDTM Mapping is [here](poc/word2vec_tfidf.ipynb)
+* Proof of Concept TF-IDF and ML based SDTM mapping work using R can be found [here](poc/sdtm_map_no_rule_based.md). The hyperparameter tuning not included.
+* Proof of Concept word embedding (NNLM) with ML for SDTM Mapping is [here](poc/nnlm_tfidf.ipynb). The note book is rough and not cleaned up yet.
 
 ## Future Work
 
