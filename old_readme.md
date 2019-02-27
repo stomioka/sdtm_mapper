@@ -1,4 +1,4 @@
-# SDTM Mapper
+# SDTMMapper
 
 ## About
 
