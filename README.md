@@ -5,13 +5,13 @@ Feb 2019
 
 ## About:
 
-**SDTMMapper** is a package to assist creation of CDISC SDTM mapping specifications with Python. This can be used for following tasks.
+**SDTMMapper** is a package to assist creation of machine readable CDISC SDTM mapping specifications with Python. This can be used for following tasks.
 
 1. Generates a empty specifications for training data from a user provided SAS dataset. This empty specification will contain SAS dataset attributes.  You don't need to use `Proc Contents` in SAS to do this!
-2. Run models to generate a mapping specifications
-3. Generates your own mapping models using your data.
+2. Run models to generate a mapping specifications.
+3. Generates your own mapping models using your data. The models can be trained to generate the target variables but also programming sudo code.
 
-The first version comes with **three pre-trained models** ([download here](https://github.com/stomioka/sdtm_mapper/tree/master/model)) for `ADVERSE EVENTS` dataset from CNS clincial trials as well as SDTM IG 3.2 and CDASH IG 1.2 metadata. These are generated with different architectures discussed at several webinars and conference. These are built on feed forward NN with trainable ELMo embedding layer for 34 classes. These are trained on **adverse event** datasets from **Medidata Rave**. Training was done on 18 studies, Validation was done on 3 studies, and Test was done on 1 study.
+The first version comes with **three pre-trained models** ([download here](https://github.com/stomioka/sdtm_mapper/tree/master/model)). These are trained on feed forward NN with trainable ELMo embedding layer for 34 classes using **adverse event** datasets from 18 clinical trials, and validation was done on 3 clinical trials until the models were optimized. Test was done on 1 clinical trial. 22 clinical trials data are extracted from **Medidata Rave** built by 3 different CROs and Sunovion Pharmaceuticals.
 
 | Models                 | Parameters | Training Acc | Validation Acc | Test Acc* |
 |------------------------|------------|--------------|----------------|----------|
