@@ -11,7 +11,7 @@ Feb 2019
 2. Run models to generate a mapping specifications
 3. Generates your own mapping models using your data.
 
-The first version comes with **three pre-trained models** ([download from here](https://github.com/stomioka/sdtm_mapper/tree/master/model) for `ADVERSE EVENTS` dataset from CNS clincial trials as well as SDTM IG 3.2 and CDASH IG 1.2 metadata. These are generated with different architectures discussed at several webinars and conference. These are built on feed forward NN with trainable ELMo embedding layer for 34 classes. These are trained on **adverse event** datasets from **Medidata Rave**. Training was done on 18 studies, Validation was done on 3 studies, and Test was done on 1 study.
+The first version comes with **three pre-trained models** ([download here](https://github.com/stomioka/sdtm_mapper/tree/master/model)) for `ADVERSE EVENTS` dataset from CNS clincial trials as well as SDTM IG 3.2 and CDASH IG 1.2 metadata. These are generated with different architectures discussed at several webinars and conference. These are built on feed forward NN with trainable ELMo embedding layer for 34 classes. These are trained on **adverse event** datasets from **Medidata Rave**. Training was done on 18 studies, Validation was done on 3 studies, and Test was done on 1 study.
 
 | Models                 | Parameters | Training Acc | Validation Acc | Test Acc* |
 |------------------------|------------|--------------|----------------|----------|
