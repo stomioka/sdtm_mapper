@@ -54,8 +54,8 @@ Old reame file is found [here](old_reame.md)
 
 ## Tutorial:
 
-1. [Tutorial on how to use SDTMMapper to generate mapping specifications](https://github.com/stomioka/sdtm_mapper/tutorials/SDTMMapperTutorial.ipynb)
-2. [Train your data using SDTMMapper on Model 1](https://github.com/stomioka/sdtm_mapper/tutorials/Build_model_1.ipynb): Note that you need to supply your training data.
+1. [Tutorial on how to use SDTMMapper to generate mapping specifications](https://github.com/stomioka/sdtm_mapper/blob/master/tutorials/SDTMMapperTutorial.ipynb)
+2. [Train your data using SDTMMapper on Model 1](https://github.com/stomioka/sdtm_mapper/blob/master/tutorials/Build_model_1.ipynb): Note that you need to supply your training data.
 
 ## References:
 1] Peters,M et al. (2018). Deep contextualized word representations
