@@ -47,7 +47,7 @@ Here is the architecture of ELMo.
 ## Notes:
 pip installation package is still under development. For now, please clone this git if you want to try. You have to have an environment to use **tensorflow**, **keras**, **scikit-learn** etc.
 
-If you want to contribute for adding more models for different SDTM domains, please join [PhUSE ML Project Community](https://www.phusewiki.org/wiki/index.php?title=Machine_Learning_/_Artificial_Intelligence). Most of the work is done during the weekends or evening. Your contributions are always welcome!
+If you want to contribute for adding more models for different SDTM domains, please join [PhUSE ML Project Community](https://www.phusewiki.org/wiki/index.php?title=Machine_Learning_/_Artificial_Intelligence). Most of the work has been done during the weekends or evening. Your contributions are always welcome!
 
 **Notes about the trained models**:
 
