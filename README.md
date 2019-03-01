@@ -3,11 +3,19 @@ Sam Tomioka
 
 Feb 2019
 
-## About:
+- [About:](#about)
+- [Installation](#installation)
+- [Tutorials](#tutorials)
+- [Notes](#notes)
+- [Comments, Issues:](#issues)
+- [Disclaimer](#disclaimer)
+- [References:](#reference)
 
-[**sdtm-mapper**](https://pypi.org/project/sdtm-mapper/) is a package to assist creation of machine readable CDISC SDTM mapping specifications with Python. This can be used for following tasks.
+## [About:](#about)
 
-1. Generates a empty specifications for training data from a user provided SAS dataset. This empty specification will contain SAS dataset attributes.  You don't need to use `Proc Contents` in SAS to do this!
+[**sdtm-mapper**](https://pypi.org/project/sdtm-mapper/) is a package to assist creation of machne readable CDISC SDTM mapping specifications with Python. This can be used for following tasks.
+
+1. Generates a empty specifications for training data from a user provided SAS dataset. This empty specification will contain SAS dataset attributes.  You don't need to use `Proc Contents` in SAS to do this! SAS datasets maybe in your aws s3 bucket or local folder.
 2. Run models to generate a mapping specifications.
 3. Generates your own mapping models using your data. The models can be trained to generate the target variables but also programming sudo code.
 
@@ -38,19 +46,19 @@ Here is the architecture of ELMo.
 ![](images/README-06c97452.png)
 **Figure 1** - biLM architecture for ELMo
 
-## Installation
+## [Installation](#installation)
 ```unix
 pip install sdtm-mapper
 ```
 
-## Tutorials:
+## [Tutorials](#tutorials)
 
-1. [Tutorial on how to use SDTMMapper to generate mapping specifications](https://colab.research.google.com/drive/1A8rzsYq7jKhTgTki7DSzDlvdrew414j4?ts=5c78a25c) Try this on Colab!
+1. [Tutorial on how to use sdtm-mapper to generate mapping specifications](https://colab.research.google.com/drive/1A8rzsYq7jKhTgTki7DSzDlvdrew414j4?ts=5c78a25c) Try this on Colab!
 2. [Train your data using SDTMMapper on Model 1](https://github.com/stomioka/sdtm_mapper/blob/master/tutorials/Build_model_1.ipynb): Note that you need to supply your training data.
 
 
-## Notes:
-pip installation package is still under development. For now, please clone this git if you want to try. You have to have an environment to use **tensorflow**, **keras**, **scikit-learn** etc.
+## [Notes](#notes)
+You have to have an environment to use **tensorflow**, **tensorflow-hub** etc.
 
 If you want to contribute for adding more models for different SDTM domains, please join [PhUSE ML Project Community](https://www.phusewiki.org/wiki/index.php?title=Machine_Learning_/_Artificial_Intelligence). Most of the work has been done during the weekends or evening. Your contributions are always welcome!
 
@@ -58,18 +66,18 @@ If you want to contribute for adding more models for different SDTM domains, ple
 
 The models were build and trained on raw AE datasets from clincial trials conducted by Sunovion Pharmaceuticals. The EDC system we use is Medidata RaveX. The training data contains some e-source data. The performance may not be good for your data.  You can also build your models using SDTMMapper tool and use your custom model for your datasets.
 
-Old reame file is found [here](old_reame.md)
+Old reame file is found [here](https://github.com/stomioka/sdtm_mapper/blob/master/old_readme.md)
 
 
-## Comments, Issues:
+## [Comments, Issues:](#issues)
 
 For any questions, comments, suggestions, or issues, please post them [here](https://github.com/stomioka/sdtm_mapper/issues)
 
 For personal communication related to SDTMMapper, please contact [Sam Tomioka](sam.tomioka@sunovion.com)
 
-## Disclaimer
+## [Disclaimer](#disclaimer)
 This is not an official Sunovion Pharmaceuticals product.
 
 
-## References:
+## [References:](#reference)
 1] Peters,M et al. (2018). Deep contextualized word representations
