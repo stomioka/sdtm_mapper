@@ -1,0 +1,16 @@
+boto3
+sas7bdat
+pandas
+botocore
+setuptools==39.1.0
+numpy
+Keras
+scikit_learn
+pathlib
+################################################################
+# TensorFlow can be installed either as CPU or GPU versions.
+# You select which one to install by (un)commenting these lines.
+
+#tensorflow		# CPU Version of TensorFlow.
+# tensorflow-gpu	# GPU version of TensorFlow.
+tensorflow_hub
