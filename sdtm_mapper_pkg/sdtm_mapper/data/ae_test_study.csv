@@ -1,0 +1,88 @@
+ID,text,sdtm
+PROJECTID,PROJECTID projectid,DROP
+PROJECT,PROJECT project,DROP
+STUDYID,STUDYID Internal id for the study,DROP
+ENVIRONMENTNAME,ENVIRONMENTNAME Environment,DROP
+SUBJECTID,SUBJECTID Internal id for the subject,DROP
+STUDYSITEID,STUDYSITEID Internal id for study site,DROP
+SUBJECT,SUBJECT Subject name or identifier,SUBJID
+SDVTIER,SDVTIER SDVTier,DROP
+SITEID,SITEID Internal id for the site,DROP
+SITE,SITE Site name,DROP
+SITENUMBER,SITENUMBER SiteNumber,DROP
+SITEGROUP,SITEGROUP SiteGroup,DROP
+INSTANCEID,INSTANCEID Internal id for the instance,DROP
+INSTANCENAME,INSTANCENAME Folder instance name,DROP
+INSTANCEREPEATNUMBER,INSTANCEREPEATNUMBER InstanceRepeatNumber,DROP
+FOLDERID,FOLDERID Internal id for the folder,DROP
+FOLDER,FOLDER Folder OID,DROP
+FOLDERNAME,FOLDERNAME Folder name,DROP
+FOLDERSEQ,FOLDERSEQ Folder sequence number,DROP
+TARGETDAYS,TARGETDAYS Target days from study start,DROP
+DATAPAGEID,DATAPAGEID Internal id for data page,DROP
+DATAPAGENAME,DATAPAGENAME eCRF page name,DROP
+PAGEREPEATNUMBER,PAGEREPEATNUMBER Sequence number of eCRF page in folder,DROP
+RECORDDATE,RECORDDATE Clinical date of record (ex: visit date),DROP
+RECORDID,RECORDID Internal id for the record,DROP
+RECORDPOSITION,RECORDPOSITION Record number,DROP
+MINCREATED,MINCREATED Earliest data creation time,DROP
+MAXUPDATED,MAXUPDATED Latest data update time,DROP
+SAVETS,SAVETS Timestamp of last save in clinical views,DROP
+AETERM,AETERM Reported Term for the Adverse Event,AETERM
+VMEDDRA,VMEDDRA MedDRA Version Num,DROP
+LLT_NAME,LLT_NAME LLT_NAME,AELLT
+LLT_CODE,LLT_CODE LLT_CODE,AELLTCD
+AEDECOD,AEDECOD AEDECOD,AEDECOD
+PT_CODE,PT_CODE PT_CODE,AEPTCD
+HLT_NAME,HLT_NAME HLT_NAME,AEHLT
+HLT_CODE,HLT_CODE HLT_CODE,AEHLTCD
+HLGTNAME,HLGTNAME HLGTNAME,AEHLGT
+HLGTCODE,HLGTCODE HLGTCODE,AEHLGTCD
+AEBODSYS,AEBODSYS AEBODSYS,AESOC
+SOC_CODE,SOC_CODE SOC_CODE,AESOCCD
+AESTDAT,AESTDAT Start Date of Adverse Event,AESTDTC
+AESTDAT_RAW,AESTDAT_RAW Start Date of Adverse Event (Character),DROP
+AESTDAT_INT,AESTDAT_INT Start Date of Adverse Event Interpolated,DROP
+AESTDAT_YYYY,AESTDAT_YYYY Start Date of Adverse Event Year,DROP
+AESTDAT_MM,AESTDAT_MM Start Date of Adverse Event Month,DROP
+AESTDAT_DD,AESTDAT_DD Start Date of Adverse Event Day,DROP
+AESTTIM,AESTTIM Start Time,AESTDTC_TM
+AEENDAT,AEENDAT End Date of Adverse Event,AEENDTC
+AEENDAT_RAW,AEENDAT_RAW End Date of Adverse Event (Character),DROP
+AEENDAT_INT,AEENDAT_INT End Date of Adverse Event Interpolated,DROP
+AEENDAT_YYYY,AEENDAT_YYYY End Date of Adverse Event Year,DROP
+AEENDAT_MM,AEENDAT_MM End Date of Adverse Event Month,DROP
+AEENDAT_DD,AEENDAT_DD End Date of Adverse Event Day,DROP
+AEENTIM,AEENTIM Stop Time,AEENDTC_TM
+AEONGO,AEONGO Ongoing,AEENRTPT
+AEONGO_RAW,AEONGO_RAW Ongoing (Character),DROP
+AEOUT,AEOUT Outcome of Adverse Event,AEOUT
+AEOUT_STD,AEOUT_STD Outcome of Adverse Event Coded Value,DROP
+AESEV,AESEV Severity,AESEV
+AESEV_STD,AESEV_STD Severity Coded Value,DROP
+AEACN,AEACN Action Taken with Study Treatment,AEACN
+AEACN_STD,AEACN_STD Action Taken with Study Treatment Coded Value,DROP
+AEREL,AEREL Causality,AEREL
+AEREL_STD,AEREL_STD Causality Coded Value,DROP
+AEPATT,AEPATT Frequency,AEPATT
+AEPATT_STD,AEPATT_STD Frequency Coded Value,DROP
+AESER,AESER Serious,AESER
+AESER_STD,AESER_STD Serious Coded Value,DROP
+AEDIS,AEDIS Caused Study Discontinuation,AEDIS
+AEDIS_STD,AEDIS_STD Caused Study Discontinuation Coded Value,DROP
+AESDTH,AESDTH Results in Death,AESDTH
+AESDTH_STD,AESDTH_STD Results in Death Coded Value,DROP
+AESLIFE,AESLIFE Is Life Threatening,AELIFTH
+AESLIFE_STD,AESLIFE_STD Is Life Threatening Coded Value,DROP
+AESHOSP,AESHOSP Requires or Prolongs Hospitalization,AESHOSP
+AESHOSP_STD,AESHOSP_STD Requires or Prolongs Hospitalization Coded Value,DROP
+AESDISAB,AESDISAB Persist or Signif Disability,AESDISAB
+AESDISAB_STD,AESDISAB_STD Persist or Signif Disability Coded Value,DROP
+AESCONG,AESCONG Congenital Anomaly or Birth Defect,AESCONG
+AESCONG_STD,AESCONG_STD Congenital Anomaly or Birth Defect Coded Value,DROP
+AESMIE,AESMIE Other Medically Important Serious Event,AESMIE
+AESMIE_STD,AESMIE_STD Other Medically Important Serious Event Coded Value,DROP
+AESTTIMU,AESTTIMU Start Time Unknown,DROP
+AESTTIMU_RAW,AESTTIMU_RAW Start Time Unknown (Character),DROP
+AEENTIMU,AEENTIMU Stop Time Unknown,DROP
+AEENTIMU_RAW,AEENTIMU_RAW Stop Time Unknown (Character),DROP

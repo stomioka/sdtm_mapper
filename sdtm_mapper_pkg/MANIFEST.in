@@ -1,0 +1,4 @@
+include LICENSE
+recursive-include sdtm_mapper/models *
+recursive-include sdtm_mapper/data *
+recursive-include sdtm_mapper/decode *
