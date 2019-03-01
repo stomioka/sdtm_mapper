@@ -3,15 +3,15 @@ Sam Tomioka
 
 Feb 2019
 
-- [About:](#about)
+- [About](#about)
 - [Installation](#installation)
 - [Tutorials](#tutorials)
 - [Notes](#notes)
-- [Comments, Issues:](#issues)
+- [Issues](#issues)
 - [Disclaimer](#disclaimer)
-- [References:](#reference)
+- [References](#reference)
 
-## [About:](#about)
+## [About](#about)
 
 [**sdtm-mapper**](https://pypi.org/project/sdtm-mapper/) is a package to assist creation of machne readable CDISC SDTM mapping specifications with Python. This can be used for following tasks.
 
@@ -69,7 +69,7 @@ The models were build and trained on raw AE datasets from clincial trials conduc
 Old reame file is found [here](https://github.com/stomioka/sdtm_mapper/blob/master/old_readme.md)
 
 
-## [Comments, Issues:](#issues)
+## [Issues](#issues)
 
 For any questions, comments, suggestions, or issues, please post them [here](https://github.com/stomioka/sdtm_mapper/issues)
 
@@ -79,5 +79,5 @@ For personal communication related to SDTMMapper, please contact [Sam Tomioka](s
 This is not an official Sunovion Pharmaceuticals product.
 
 
-## [References:](#reference)
+## [References](#reference)
 1] Peters,M et al. (2018). Deep contextualized word representations
