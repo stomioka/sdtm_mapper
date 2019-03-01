@@ -1,17 +1,17 @@
-# SDTMMapper
+# sdtm-mapper
 Sam Tomioka
 
 Feb 2019
 
 ## About:
 
-**SDTMMapper** is a package to assist creation of machine readable CDISC SDTM mapping specifications with Python. This can be used for following tasks.
+[**sdtm-mapper**](https://pypi.org/project/sdtm-mapper/) is a package to assist creation of machine readable CDISC SDTM mapping specifications with Python. This can be used for following tasks.
 
 1. Generates a empty specifications for training data from a user provided SAS dataset. This empty specification will contain SAS dataset attributes.  You don't need to use `Proc Contents` in SAS to do this!
 2. Run models to generate a mapping specifications.
 3. Generates your own mapping models using your data. The models can be trained to generate the target variables but also programming sudo code.
 
-The first version comes with **three pre-trained models** ([download here](https://github.com/stomioka/sdtm_mapper/tree/master/model)). These are trained on feed forward NN with trainable ELMo embedding layer for 34 classes using **adverse event** datasets from 18 clinical trials, and validation was done on 3 clinical trials until the models were optimized. Test was done on 1 clinical trial. 22 clinical trials data are extracted from **Medidata Rave** built by 3 different CROs and Sunovion Pharmaceuticals.
+The first version comes with **three pre-trained models** (Included in the package). These are trained on feed forward NN with trainable ELMo embedding layer for 34 classes using **adverse event** datasets from 18 clinical trials, and validation was done on 3 clinical trials until the models were optimized. Test was done on 1 clinical trial. 22 clinical trials data are extracted from **Medidata Rave** built by 3 different CROs and Sunovion Pharmaceuticals.
 
 | Models                 | Parameters | Training Acc | Validation Acc | Test Acc* |
 |------------------------|------------|--------------|----------------|----------|
@@ -38,9 +38,14 @@ Here is the architecture of ELMo.
 ![](images/README-06c97452.png)
 **Figure 1** - biLM architecture for ELMo
 
+## Installation
+```unix
+pip install sdtm-mapper
+```
+
 ## Tutorials:
 
-1. [Tutorial on how to use SDTMMapper to generate mapping specifications](https://github.com/stomioka/sdtm_mapper/blob/master/tutorials/SDTMMapperTutorial.ipynb)
+1. [Tutorial on how to use SDTMMapper to generate mapping specifications](https://colab.research.google.com/drive/1A8rzsYq7jKhTgTki7DSzDlvdrew414j4?ts=5c78a25c) Try this on Colab!
 2. [Train your data using SDTMMapper on Model 1](https://github.com/stomioka/sdtm_mapper/blob/master/tutorials/Build_model_1.ipynb): Note that you need to supply your training data.
 
 
