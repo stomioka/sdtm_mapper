@@ -13,11 +13,11 @@ Feb 2019
 
 ## [About](#about)
 
-[**sdtm-mapper**](https://pypi.org/project/sdtm-mapper/) is a package to assist creation of machne readable CDISC SDTM mapping specifications with Python. This can be used for following tasks.
+[**sdtm-mapper**](https://pypi.org/project/sdtm-mapper/) is a Python package to generate machine readable CDISC SDTM mapping specifications with help from AI. This can be used for following tasks.
 
-1. Generates a empty specifications for training data from a user provided SAS dataset. This empty specification will contain SAS dataset attributes.  You don't need to use `Proc Contents` in SAS to do this! SAS datasets maybe in your aws s3 bucket or local folder.
-2. Run models to generate a mapping specifications.
-3. Generates your own mapping models using your data. The models can be trained to generate the target variables but also programming sudo code.
+1. Generates an empty specifications for training data from a user provided SAS dataset. This empty specification will contain SAS dataset attributes.  You don't need to use `Proc Contents` in SAS to do this! SAS datasets maybe in your aws s3 bucket or local folder.
+2. Runs models to generate a mapping specifications.
+3. Generates your own mapping algorithms using your data. The models can be trained to generate the target variables but also programming sudo code.
 
 The first version comes with **three pre-trained models** (Included in the package). These are trained on feed forward NN with trainable ELMo embedding layer for 34 classes using **adverse event** datasets from 18 clinical trials, and validation was done on 3 clinical trials until the models were optimized. Test was done on 1 clinical trial. 22 clinical trials data are extracted from **Medidata Rave** built by 3 different CROs and Sunovion Pharmaceuticals.
 
