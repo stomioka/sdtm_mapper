@@ -54,7 +54,7 @@ pip install sdtm-mapper
 ## [Tutorials](#tutorials)
 
 1. [Tutorial on how to use sdtm-mapper to generate mapping specifications](https://colab.research.google.com/drive/1A8rzsYq7jKhTgTki7DSzDlvdrew414j4?ts=5c78a25c) Try this on Colab!
-2. [Train your data using SDTMMapper on Model 1](https://github.com/stomioka/sdtm_mapper/blob/master/tutorials/Build_model_1.ipynb): Note that you need to supply your training data.
+2. [Train your data using SDTMMapper on Model 1](https://colab.research.google.com/drive/1d73e0ZZDxVGcUgY8P_Bz1PCMuCLRpL7D): Note that you need to supply your training data.
 
 
 ## [Notes](#notes)
