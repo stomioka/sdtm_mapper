@@ -26,6 +26,7 @@ The first version comes with **three pre-trained models** (Included in the packa
 |1. Elmo+sfnn+ae+Model1.h5 | 271,142    |  0.9795        | 0.9800        | 0.9540   |
 |2. Elmo+fnn+ae+Model2.h5  | 664,870    | 0.9846      | **1.0000**         | 0.9425   |
 |3. Elmo+fnn+ae+Model3.h5  | 594,854    | **0.9966**       | **1.0000**         | **0.9666**   |
+
 **Table 1 - Performance of three models** <br>
 \* Macro accuracy account for system variables for 'drop'.
 
