@@ -2,7 +2,7 @@ boto3
 sas7bdat
 pandas
 botocore
-setuptools==39.1.0
+setuptools==65.5.1
 numpy
 Keras
 scikit_learn
