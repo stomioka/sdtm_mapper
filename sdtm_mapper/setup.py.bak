@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license='LICENSE',
     include_package_data=True,
-    install_requires=['numpy','pandas','pathlib','sas7bdat','boto3','botocore','sklearn','keras'],
+    install_requires=['numpy','pandas','pathlib','sas7bdat','boto3','botocore','scikit-learn','keras'],
     url='https://github.com/stomioka/sdtm_mapper',
     packages=setuptools.find_packages(exclude=('tests','doc','docs','images','poc','SDTMMapper','train_data','tutorials')),
     classifiers=[
