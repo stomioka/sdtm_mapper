@@ -5,7 +5,7 @@ botocore
 setuptools==39.1.0
 numpy
 Keras
-scikit_learn
+scikit-learn
 pathlib
 ################################################################
 # TensorFlow can be installed either as CPU or GPU versions.
